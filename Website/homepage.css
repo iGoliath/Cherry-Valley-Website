@@ -20,6 +20,8 @@ header {
 
 nav {
     background-color: rgb(41, 197, 41);
+    position: sticky;
+    top:0%;
 }
 /* nav dropdown text styling */
 .dropbtn, .dropdown-content a {
