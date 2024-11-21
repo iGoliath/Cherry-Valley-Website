@@ -1,0 +1,23 @@
+
+iframe {
+    display:flex;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+h1 {
+    display:inline-block;
+    color:white;
+    background-color: rgb(76, 181, 76, 0.5);
+}
+
+body {
+    background-image: url('EventsBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+
+}
