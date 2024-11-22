@@ -29,6 +29,7 @@ header {
     color: rgb(30, 42, 154);
     font-family: 'Times New Roman', Times, serif;
     font-size:x-large;
+    text-shadow: 2px 2px 0px #FFFFFF;
 }
 
 nav {
@@ -87,10 +88,23 @@ nav {
 }
 
 
-p{
-    color: rgb(108, 156, 202);
+.aboutusp {
+    color: rgb(0, 0, 0);
+    padding-left:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+.footer{
+    background-color: rgb(41, 197, 41);
+    display:flex;
+    padding-top:20px;
+    padding-bottom:20px;
+    position: static; 
+    bottom: 0;
+    left:0;
+    text-align:center;
+    width:100%;
+}
 
 .mediaicons {
     padding: 10px;
@@ -99,10 +113,17 @@ p{
 }
 
 .icons {
-    padding-left: 200px;
-    padding-top: 75px;
+    padding-left: 100px;
+    padding-top:25px;
 }
 
+b {
+    color:black;
+}
+
+.socialtitle {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
 
 

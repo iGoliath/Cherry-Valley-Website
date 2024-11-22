@@ -8,18 +8,14 @@ iframe {
     min-width: 50%;
 }
 
-h1 {
+.titlediv {
+    text-align:center;
+}
+.title {
     color:white;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     text-align: center;
-    /* height: 200px; */
     background-color: rgb(76, 181, 76, 0.5);
-    /* margin: auto; */
-    /* width: max-content; */
-    /* max-height:50px; */
+    display:inline-block;
 }
 
 body {
@@ -37,24 +33,17 @@ body {
     width:50%;
     justify-content:center;
     padding-top:50px;
+    padding-bottom:20px;
 }
 
-.footer{
-    display:flex;
-    padding-top:20px;
-    position: static; 
-    bottom: 0;
-    left:0;
-    text-align:center;
+.visit{
+    font-weight: bold;
 }
 
-.mediaicons {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
+.map {
+    padding-left:30px;
 }
 
-.icons {
-    padding-left: 200px;
-    padding-top: 75px;
+.info {
+    padding-left:50px;
 }
