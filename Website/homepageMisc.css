@@ -1,0 +1,45 @@
+body {
+    background-image: url('homepage.webp');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+h1 {
+    color: rgb(30, 42, 154);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    text-shadow: 2px 2px 0px #FFFFFF;
+    text-align:center;
+}
+
+h2 {
+    color: rgb(30, 42, 154);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    text-shadow: 2px 2px 0px #FFFFFF;
+    text-align:center;
+}
+
+.button {
+   position:absolute;
+   top: 525px;
+   padding:10px;
+   font-size:15px;
+   background-color:rgb(108, 92, 197);
+   border-color:green;
+   color:white;
+   border-radius:8px;
+}
+
+.button1 {
+    left:700px;
+}
+
+.button2 {
+    left:900px;
+}
+
+.button3 {
+    left:1075px;
+}

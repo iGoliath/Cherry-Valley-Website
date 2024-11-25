@@ -97,13 +97,12 @@ nav {
 .footer{
     background-color: rgb(41, 197, 41);
     display:flex;
-    padding-top:20px;
-    padding-bottom:20px;
-    position: static; 
+    position: absolute; 
     bottom: 0;
     left:0;
-    text-align:center;
     width:100%;
+    text-align:center;
+    height:auto;
 }
 
 .mediaicons {
@@ -123,6 +122,15 @@ b {
 
 .socialtitle {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#page-container {
+    position:relative;
+    min-height:100vh;
+}
+
+#content-wrap {
+    padding-bottom:15rem;
 }
 
 
