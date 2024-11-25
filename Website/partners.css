@@ -32,9 +32,21 @@ h2 {
 }
 
 .Partner{
-    display:block;
-    padding-left:200px;
+    display:inline;
+    position:relative;
     color:white;
     font-size:18px;
     text-decoration:none;
+    text-shadow: 2px 2px 0px #f70000;
+}
+
+
+#right {
+    text-align:right;
+    float:right;
+    padding-right:475px;
+}
+
+#left {
+    padding-left:425px;
 }
