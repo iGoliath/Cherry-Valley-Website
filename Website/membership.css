@@ -35,11 +35,12 @@ body {
     border-color:green;
     color:white;
     border-radius:8px;
-    margin: 50px;
+    margin: 75px;
  }
  
  .buttondiv {
-     text-align:center;
+    text-align:center;
+    
  }
 
  .button-container {
@@ -47,3 +48,10 @@ body {
     align-items: center;
     display: flex;
   }
+
+.white-box {
+    background-color: white;
+    color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+}
