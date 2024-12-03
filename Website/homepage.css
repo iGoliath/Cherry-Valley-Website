@@ -121,7 +121,11 @@ b {
 }
 
 .socialtitle {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    color: rgb(30, 42, 154);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    text-shadow: 2px 2px 0px #FFFFFF;
+    text-align:center;
 }
 
 #page-container {

@@ -7,7 +7,7 @@ iframe {
 }
 
 h1 {
-    color:white;
+    color:black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,14 +21,19 @@ h1 {
 
 .imageOverlay
 {   
+    color:black;
+    text-shadow: 2px 2px 0px white;
     position: relative;
     height: inherit;
     max-width: 100%;
-    background-color: rgb(76, 181, 76, 0.5);
+}
+
+.imageOverlay p {
+    font-size:22px;
 }
 
 body {
-    background-image: url('EventsBackground.jpg');
+    background-image: url('historybackground.jpg');
     filter: rgb(76, 181, 76, 0.5);
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -40,7 +45,5 @@ body {
 p
 {
     text-align: center;
-    
-
 }
 

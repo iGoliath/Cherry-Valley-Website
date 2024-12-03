@@ -1,38 +1,40 @@
-
-iframe {
-    display:flex;
-    justify-content:center;
-    margin-left:auto;
-    margin-right:auto;
-}
-
 h1 {
-    color:white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 200px;
-    margin: 0 auto;
-    width: max-content;
-    max-height:50px;
+    color: rgb(30, 42, 154);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    text-shadow: 2px 2px 0px #FFFFFF;
+    text-align:center;
 }
 
-.imageOverlay
-{   
-    position: relative;
-    height: inherit;
-    max-width: 100%;
-    background-color: rgb(76, 181, 76, 0.5);
+p {
+    text-align:center;
+    text-shadow: 2px 2px 0px white;
+}
+
+.memo {
+    font-size:22px;
+}
+
+.donatebutton {
+    text-align:center;
+}
+
+.button {
+   padding:10px;
+   font-size:15px;
+   background-color:rgb(108, 92, 197);
+   border-color:green;
+   color:white;
+   border-radius:8px;
+}
+
+.buttondiv {
+    text-align:center;
 }
 
 body {
-    background-image: url('EventsBackground.jpg');
-    filter: rgb(76, 181, 76, 0.5);
+    background-image: url('donatebackground.jpg');
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size:cover;
-    color:white;
-
 }
