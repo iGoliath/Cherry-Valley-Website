@@ -1,11 +1,12 @@
-
-iframe {
+.formdiv {
+    height:80%;
+}
+.form {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    min-height: 75%;
 }
 
 h1 {
@@ -27,5 +28,4 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size:cover;
-
 }
